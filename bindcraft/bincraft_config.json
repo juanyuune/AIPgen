@@ -1,0 +1,18 @@
+{
+  "target_pdb": "1TNR",
+  "target_chain": "A",
+  "hotspot_residues": ["A77", "A82", "A104", "A108", "A143", "A145", "A147"],
+  "binder_length_min": 8,
+  "binder_length_max": 20,
+  "num_designs_requested": 10,
+  "filter_mode": "peptide",
+  "design_protocol": "default_4stage",
+  "gpu": "T4",
+  "platform": "Google Colab",
+  "starting_binder_pdb": "WFDEGLSLLEDSD_esmfold.pdb",
+  "metrics_reported": ["i_pTM", "pLDDT", "i_pLDDT", "binder_energy", "relaxed_clashes"],
+  "trajectories_run": 22,
+  "trajectory_pass_rate": "100%",
+  "top_designs_reported": 5,
+  "ranking_metric": "i_pTM"
+}
