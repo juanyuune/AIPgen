@@ -10,8 +10,8 @@ Usage:
     python figureS2_conflict_analysis.py
 
 Requires:
-    - C:/jupyter/juan/AIP/iedb_fasta/pos_iedb_cleaned.fasta
-    - C:/jupyter/juan/AIP/iedb_fasta/neg_iedb_cleaned.fasta
+     "C:/jupyter/juan/AIP/iedb_fasta/after_cdhit40%/pos_50%.fasta"
+    "C:/jupyter/juan/AIP/iedb_fasta/after_cdhit40%/neg_50%.fasta"
 """
 
 import os
